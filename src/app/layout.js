@@ -1,5 +1,4 @@
 import { Inter } from "next/font/google";
-import { HashRouter as Router } from 'react-router-dom';
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
