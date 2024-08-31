@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: "/barbearia-simples-Devmedia-/", // <=== here it is 
+  basePath: "/barbearia-simples-Devmedia-", // <=== here it is 
   output: "export",
   reactStrictMode: true,
 };
