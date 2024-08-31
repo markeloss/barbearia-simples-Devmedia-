@@ -1,7 +1,7 @@
 {
   "name": "barbearia-react",
   "version": "0.1.0",
-  "homepage": "https://markeloss.github.io/barbearia-simples-Devmedia-",
+  "homepage": "github-page/",
   "private": true,
   "scripts": {
     "dev": "next dev",
