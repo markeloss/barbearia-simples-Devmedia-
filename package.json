@@ -4,7 +4,7 @@
   "homepage": "github-page/",
   "private": true,
   "scripts": {
-    "export": "next build && next export",
+    "build": "next build",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
