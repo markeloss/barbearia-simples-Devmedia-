@@ -4,7 +4,7 @@ import estilos from './page.module.css';
 import Banner from '../../public/banner.jpg';
 import Logo from '../../public/logo.png';
 import { useState } from 'react';
-//import { FiSun, FiMoon } from "react-icons/fi"
+import { FiSun, FiMoon } from "react-icons/fi";
 
 export default function Home() {
 
@@ -21,7 +21,7 @@ export default function Home() {
         <div>
           <Image src={Logo} alt="logomarca" />
           <button onClick={alterarTema}>
-            {ehTemaEscuro }
+            {ehTemaEscuro ? <FiSun /> : <FiMoon />}
           </button>
         </div>
       </header>
