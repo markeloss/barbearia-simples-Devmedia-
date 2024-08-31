@@ -1,8 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
-  basePath: '/<barbearia-simples-Devmedia->',
-  assetPrefix: '/<barbearia-simples-Devmedia->/',
+  basePath: "/barbearia-simples-Devmedia-/", // <=== here it is 
+  output: "export",
+  reactStrictMode: true,
 };
-
-export default nextConfig;
+module.exports = nextConfig;
