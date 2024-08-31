@@ -1,11 +1,3 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import App from './App'; // Ajustar o caminho se necessário
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<App />);
-
-
 import { Inter } from "next/font/google";
 import "./globals.css";
 
